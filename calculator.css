@@ -1,0 +1,63 @@
+body{
+    margin: 0%;
+    background-image: url(/calculator/Daily\ DrawBot.gif);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.calculator{
+    border: 2px solid white;
+    width: 350px;
+    height: 450px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+#heading{
+    text-align: center;
+    margin-top: 5%;
+    font-size: large;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif ;
+    background-color: coral;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 18%; 
+}
+
+.num-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#text-box{
+    width: 300px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 45%;
+}
+
+.button1,.button2,.button3,.button4,.button5{
+    padding: 10px 26px;
+    width: 100%;
+}
+
+#btn{
+    width: 45px;
+    height: 45px;
+    margin-right: 9%;
+    margin-top:0%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#btneq{
+    width: 125px;
+    height: 45px;
+    border-radius: 50%;
+}

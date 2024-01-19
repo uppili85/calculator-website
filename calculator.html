@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calculator/calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="heading">CALCULATOR</div>
+        <form>
+            <div class="num-box">
+                <input type="text" id="text-box" />
+            </div>
+            <div class="button1">
+                <input type="button" onclick="getValue('AC')" id="btn" value="AC">
+                <input type="button" onclick="erase('E')" id="btn" value="E">
+                <input type="button" onclick="getValue('%')" id="btn" value="%" >
+                <input type="button" onclick="getValue('/')" id="btn" value="/">
+            </div>
+            <div class="button2">
+                <input type="button" onclick="getValue(7)" id="btn" value="7">
+                <input type="button" onclick="getValue(8)" id="btn" value="8">
+                <input type="button" onclick="getValue(9)" id="btn" value="9">
+                <input type="button" onclick="getValue('*')" id="btn" value="*">
+            </div>
+            <div class="button3">
+                <input type="button" onclick="getValue(4)" id="btn" value="4">
+                <input type="button" onclick="getValue(5)" id="btn" value="5">
+                <input type="button" onclick="getValue(6)" id="btn" value="6">
+                <input type="button" onclick="getValue('-')" id="btn" value="-">
+            </div>
+            <div class="button4">
+                <input type="button" onclick="getValue(1)" id="btn" value="1">
+                <input type="button" onclick="getValue(2)" id="btn" value="2">
+                <input type="button" onclick="getValue(3)" id="btn" value="3">
+                <input type="button" onclick="getValue('+')" id="btn" value="+">
+            </div>
+            <div class="button5">
+                <input type="button" onclick="getValue(0)" id="btn" value="0">
+                <input type="button" onclick="getValue('.')" id="btn" value=".">
+                <input type="button" onclick="calc('=')" id="btneq" value="=">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="/calculator/calculator.js"></script>
+</html>
